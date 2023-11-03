@@ -1,1 +1,20 @@
-/home/pandaniel/.config/alacritty/alacritty.yml
+shell:
+  program: /usr/bin/tmux
+  args:
+    - new-session
+    - -A
+    - -s
+    - default
+selection:
+  save_to_clipboard: true
+env:
+  TERM: xterm-256color
+font:
+    normal:
+        family: Firacode Nerd Font Mono
+        style: Regular
+import:
+  #  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+    - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+  #  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+  #  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml    
