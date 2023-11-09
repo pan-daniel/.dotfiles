@@ -1,12 +1,9 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
-	name = Daniel Grzelak
-	email = daniel.grzelak@competec.ch
+	name = {{git_username}}
+	email = {{git_email}}
 [core]
 	autocrlf = input
 [fetch]
 	prune = true
 [color]
-# Enable colors in color-supporting terminals
 	ui = auto
