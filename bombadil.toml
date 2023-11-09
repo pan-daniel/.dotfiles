@@ -6,6 +6,13 @@ vars = ["home/git_vars.toml"]
 [profiles.competec]
 vars = ["competec/git_vars.toml"]
 
+[profiles.arch_xorg.dots]
+xprofile = { source = "arch/xorg/xprofile", target = ".xprofile"}
+
+[profiles.arch_wayland.dots]
+fcitx = { source = "arch/wayland/fcitx.conf", target = ".config/environment.d/fcitx.conf"}
+wayland = { source = "arch/wayland/wayland.conf", target = ".config/environment.d/wayland.conf"}
+
 [settings.dots]
 alacritty = { source = "alacritty.yml", target = ".config/alacritty/alacritty.yml" }
 tmux = { source = "tmux.conf", target = ".tmux.conf" }
