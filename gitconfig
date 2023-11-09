@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Daniel Grzelak
+	email = daniel.grzelak@competec.ch
+[core]
+	autocrlf = input
+[fetch]
+	prune = true
+[color]
+# Enable colors in color-supporting terminals
+	ui = auto
